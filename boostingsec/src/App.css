@@ -1,0 +1,204 @@
+.App{
+  background-color: #041018;
+  padding: 0;
+  margin: 0;
+}
+
+.section-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #041018;
+  height: 78vh;
+  width: 100%;
+}
+
+.section-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #041018;
+  gap: 150px;
+  height: 78vh;
+  width: 100%;
+}
+
+.Header {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glassmorphism {
+  background-color: rgba(4, 16, 24, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.Header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 10px 0;
+}
+
+.Header-button{
+  text-decoration: none;
+  background: #06162056;
+  border: 2px solid #061620;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 7px 12px;
+}
+
+.Header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.Logos {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.Logo {
+  font-weight: 600;
+}
+
+.content{
+  margin: 0;
+  text-align: center;
+}
+
+.title{
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.title-md{
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  color: #7199ea;
+}
+
+.punchline{
+  color: #7199ea;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.undertext{
+  color: #ffffffc7;
+  font-weight: 500;
+}
+
+.introduce{
+  display: flex;
+  gap: 10px;
+}
+
+.discord{
+  display: flex;
+  align-items: center;
+  text-decoration:none ;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #7199ea;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 0.3rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 18px;
+  color: white;
+}
+
+.review{
+  display: flex;
+  align-items: center;
+  text-decoration:none ;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #06162056;
+  border: 2px solid #061620;
+}
+
+.recent-box{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.recent-games{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.games{
+  margin: 3px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  padding: 2px 12px;
+  background: #06162056;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  font-weight: 500;
+}
+
+.stats{
+  color: #1d8545;
+  text-shadow: 0px 0px 5px #1d8545bb;
+}
+
+.footer-content {
+  font-weight: 500;
+  border-top: 2px solid #061620;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1660px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.linkdisc{
+  padding: 8px;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.linkdisc:hover{
+  background-color: #06162056;
+}
+
+.footer-info {
+  font-size: 14px;
+  text-align: right;
+}
