@@ -43,13 +43,13 @@ function App() {
       </header>
       <section className='section-one'>
         <div className='text-box'>
-          <p className='title content'>Elevate your game, conquer with ease CS2 Boosting</p>
-          <p className='punchline content'>Where victory's a breeze!</p>
+            <p className='title content'>Elevate your game, conquer with ease CS2 Boosting</p>
+            <p className='punchline content'>Where victory's a breeze!</p>
         </div>
         <p className='undertext'>Swift, dependable, and simply superb: Our service is the epitome of CS2 mastery, served with flair!</p>
         <div className='introduce'>
           <a href="https://discord.gg/Aj2uRTsmMS" className='discord'>Discord</a>
-          <a href="Comingsoon" className='review'>Review (coming soon)</a>
+          <a href="Comingsoon" className='review'>Review</a>
         </div>
       </section>
       <section className='section-two'>
