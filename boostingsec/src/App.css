@@ -25,6 +25,29 @@
   width: 100%;
 }
 
+.section-three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #041018;
+  height: 78vh;
+  width: 100%;
+}
+
+.blub{
+  position: absolute;
+  width: 45%;
+  height: 45%;
+  bottom: 0;
+  background: radial-gradient(36.18% 43.79% at 50% 50%,#a2befc 0%,rgba(33,33,38,0) 100%);
+  mix-blend-mode: lighten;
+  opacity: .2;
+  filter: blur(50px);
+  transform: rotate(-15.47deg);
+  pointer-events: none;
+}
+
 .Header {
   color: white;
   position: fixed;
@@ -94,6 +117,13 @@
   color: #7199ea;
 }
 
+.cut-title{
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 22px;
+}
+
 .punchline{
   color: #7199ea;
   font-weight: 600;
@@ -123,7 +153,7 @@
   font-size: 14px;
   border-radius: 0.3rem;
   font-family: 'Poppins', sans-serif;
-  padding: 12px 18px;
+  padding: 12px 20px;
   color: white;
 }
 
@@ -131,6 +161,7 @@
   display: flex;
   align-items: center;
   text-decoration:none ;
+  gap: 10px;
   cursor: pointer;
   border-radius: 0.3rem;
   padding: 12px 18px;
@@ -172,8 +203,56 @@
 }
 
 .stats{
-  color: #1d8545;
-  text-shadow: 0px 0px 5px #1d8545bb;
+  color: #00b087;
+  text-shadow: 0px 0px 5px #00b087bb;
+}
+
+.delivery{
+  display: flex;
+  background-color: #f4cf9048;
+  padding: 8px;
+  border-radius: 0.3rem;
+}
+
+.support{
+  display: flex;
+  background-color: #f8498348;
+  padding: 8px;
+  border-radius: 0.3rem;
+}
+
+.security{
+  display: flex;
+  background-color: #007bff48;
+  padding: 8px;
+  border-radius: 0.3rem;
+}
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  width: 300px;
+  background-color: #061620;
+  border: 1px solid #081b27;
+  color: white;
+  border-radius: 0.3rem;
+  margin: 25px;
+}
+
+.info-title{
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  gap: 14px;
+}
+
+.info-text{
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 .footer-content {
@@ -209,6 +288,9 @@
     flex-direction: column;
     height: 100vh;
     gap: 60px;
+  }
+  .section-three{
+    flex-direction: column;
   }
   .title{
     font-size: 24px;
