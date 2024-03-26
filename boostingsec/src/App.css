@@ -204,7 +204,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .section-two{
     flex-direction: column;
     height: 100vh;
